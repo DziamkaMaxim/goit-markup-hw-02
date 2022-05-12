@@ -17,12 +17,18 @@ body{
     letter-spacing: 0.02em;
     color: #212121;
 }
+.studio-header:hover, .studio-header:focus{
+    color: #2196F3;
+}
 .details-header {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
+}
+.details-header:hover, .details-header:focus{
+    color: #2196F3;
 }
 /* Logo */
 .web {
@@ -84,6 +90,9 @@ color: #FFFFFF;
     background-color: #F5F4FA;
     border-radius: 4px;
 }
+.portf-button:hover, .portf-button:focus{
+    background-color: #2196F3;
+}
 .button-main {
     font-weight: 700;
     font-size: 16px;
@@ -94,6 +103,9 @@ color: #FFFFFF;
     text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
+}
+.button-main:hover, .button-main:focus{
+    background-color: #063459;
 }
 /* portf project */
 .project{
