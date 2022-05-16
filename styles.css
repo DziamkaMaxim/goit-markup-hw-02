@@ -29,13 +29,15 @@ body{
     display: flex;
 }
 .portf-flex-container{
-    display: flex;
-    flex-wrap: wrap;
-        width: 1200px;
-        padding-left: 15px;
-        padding-right: 15px;
-        margin-left: auto;
-        margin-right: auto;
+        display: flex;
+        flex-wrap: wrap;
+}
+.test{
+    width: 1230px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 .studio-header {
     font-weight: 500;
@@ -117,6 +119,10 @@ body{
 .advantage-img{
         margin-right: 30px;
         margin-left: 30px;
+
+}
+.advantage-img:nor(:last-child){
+    margin-right: 30px;
 }
 
 .what-title {
@@ -211,6 +217,7 @@ color: #FFFFFF;
     color: #212121;
     background-color: #F5F4FA;
     border-radius: 4px;
+    border-color: #F5F4FA;
 
     margin-right: 8px;
 
@@ -290,8 +297,7 @@ list-style: none;
 }
 .teams{
     background-color: #F5F4FA;
-    display: flex;
-    justify-content: space-between;
+    
 }
 .teams-title{
     font-weight: 700;
@@ -301,10 +307,22 @@ list-style: none;
     letter-spacing: 0.03em;
     color: #212121;
 
+    padding-top: 94px;
    
 } 
 
 /* Footer */
 .footer {
     background-color: #2F303A;
+}
+.footer-title{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+
+        padding-top: 60px;
+        display: inline-block;
 }
