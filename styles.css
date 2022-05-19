@@ -39,6 +39,7 @@ img {
 /* Header */
 .header{
     border: 1px solid #ECECEC;
+    
 }
 .header-title{
     font-family: 'Raleway';
@@ -57,6 +58,10 @@ img {
   
         margin-top: 32px;
         margin-bottom: 32px;
+}
+.flex-header-portf{
+    display: flex;
+    margin-left: 70px;
 }
 .flex-header-details{
     display: flex;
@@ -293,6 +298,7 @@ margin-bottom: 30px;
 
     border: 1px solid #EEEEEE;
 }
+
 .project-text{
     font-family: 'Roboto';
         font-style: normal;
@@ -307,6 +313,7 @@ margin-bottom: 30px;
         flex-basis: calc(100% / 3 - 30px);
         margin-left: 24px;
         margin-top: 4px;
+        margin-bottom: 20px;
 }
 ul{
 list-style: none;
@@ -343,7 +350,7 @@ list-style: none;
 .teams-list{
     display: flex;
     margin-top: 50px;
-    
+    padding-bottom: 94px;
 }
 .teams-name{
     font-weight: 500;
@@ -399,7 +406,6 @@ list-style: none;
 .footer {
     background-color: #2F303A;
     padding-bottom: 60px;
-    margin-top: 94px;
 }
 .footer-title{
         font-family: 'Raleway';
